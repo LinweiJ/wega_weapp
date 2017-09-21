@@ -1,0 +1,12 @@
+/* pages/delayButton_demo/delayButton_demo.wxss */
+@import "../../utils/delayButton/delayButton.wxss";
+@import "../../utils/delayButton2/delayButton2.wxss";
+.delayButton_out{
+
+  margin: 20rpx;
+}
+
+.delayButton_out_2{
+
+  margin: 20rpx  120rpx;
+}

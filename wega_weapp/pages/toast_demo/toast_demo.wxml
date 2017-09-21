@@ -1,0 +1,10 @@
+<!--pages/toast/toast.wxml-->
+
+<!-- toast 提示框 -->
+<include src="../../utils/toast/toast.wxml" />
+
+
+<button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="showToast1">showToastdefault(默认)</button>
+<button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="showToast2">showToastWithMask(带蒙层)</button>
+<button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="showToast3">showToast(5s 无蒙层)</button>
+<button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="showToast4">showToast(5s 有蒙层)</button>

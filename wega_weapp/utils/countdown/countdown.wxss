@@ -1,0 +1,19 @@
+/* utils/countdown/countdown.wxss */
+
+/* 验证码 */
+
+.countdown {
+  font-size: 28rpx;
+  color: #00a7e5;
+  background-color: transparent; 
+
+  border: none;
+  padding-right: 0rpx;
+  padding-left: 0rpx;
+ 
+}
+
+
+
+
+

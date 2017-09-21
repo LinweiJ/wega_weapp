@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/toast_demo/toast_demo",
+    "pages/dialog_demo/dialog_demo",
+    "pages/delayButton_demo/delayButton_demo",
+    "pages/countdown_demo/countdown_demo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00a7e5",
+    "navigationBarTitleText": "wega_weapp",
+    "navigationBarTextStyle": "white"
+  }
+}

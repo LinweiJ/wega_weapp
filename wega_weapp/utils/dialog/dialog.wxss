@@ -1,0 +1,90 @@
+/* dialog.wxss */
+
+/*mask*/
+
+.drawer_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*content*/
+
+.drawer_box {
+  width: 600rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 35%;
+  left: 0;
+  z-index: 1001;
+  background: #fafafa;
+  margin: 0 75rpx;
+  background: #fafafa;
+  border-radius: 16rpx;
+}
+
+/* 标题 */
+
+/* .drawer_title{
+ padding:15px;
+ text-align: center;
+} */
+
+/* 内容 */
+
+.drawer_content {
+  height: 148rpx;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 按钮 */
+
+.drawer_btnView {
+  height: 88rpx;
+  display: flex;
+  border-top: 1px solid rgb(200, 200, 200);
+}
+
+/* 取消按钮 */
+
+.drawer_btn_cancel {
+  font-size: 28rpx;
+  text-align: center;
+  border-right: 1px solid rgb(200, 200, 200);
+  color: rgb(75, 75, 75);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 确定按钮 */
+
+.drawer_btn_ok {
+  font-size: 28rpx;
+  text-align: center;
+  color: rgb(75, 75, 75);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 按钮 点击效果 */
+
+.drawer_hover_btn {
+  background-color: rgb(240, 240, 240);
+}

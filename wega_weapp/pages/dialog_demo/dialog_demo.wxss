@@ -1,0 +1,3 @@
+/* pages/dialog_demo/dialog_demo.wxss */
+/* 导入toast样式 */
+@import "../../utils/dialog/dialog.wxss";

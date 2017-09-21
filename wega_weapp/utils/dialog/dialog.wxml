@@ -1,0 +1,20 @@
+<!--dialog.wxml-->
+
+<!--mask-->
+<view animation="{{animationData0}}" class="drawer_screen" bindtap="powerDrawer" data-statu="out" wx:if="{{showModalStatus}}">
+</view>
+<!--content-->
+<!--使用animation属性指定需要执行的动画-->
+<view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">
+
+  <!--drawer content-->
+  <view class="drawer_title" hidden="{{hiddenTitle}}">弹窗标题</view>
+  <view class="drawer_content">
+    <text>{{message}}</text>
+  </view>
+  <view class="drawer_btnView">
+    <view class="drawer_btn_cancel" bindtap="powerDrawer" hidden="{{!showCancel}}" data-statu="close" hover-class="drawer_hover_btn">{{cancelText}}</view>
+    <view class="drawer_btn_ok" bindtap="powerDrawer" data-statu="confirm" style="color:{{confirmColor}}" hover-class="drawer_hover_btn">{{confirmText}}</view>
+  </view>
+
+</view>

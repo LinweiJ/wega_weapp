@@ -1,0 +1,5 @@
+<!--pages/countdown/countdown_demo.wxml-->
+
+
+<import src="../../utils/countdown/countdown.wxml"/>
+<template is="countdown" data="{{...countdownData}}"/>

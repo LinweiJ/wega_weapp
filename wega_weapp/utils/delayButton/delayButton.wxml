@@ -1,0 +1,3 @@
+<!--utils/delayButton/delayButton.wxml-->
+
+<button disabled="{{isClocking}}" type="default" bindtap="delaybutton" data-id='{{id}}' class="delaybutton" hover-class="hover_delaybutton">{{clock}}</button>

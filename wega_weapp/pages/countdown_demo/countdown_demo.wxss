@@ -1,0 +1,2 @@
+/* pages/countdown/countdown_demo.wxss */
+@import "../../utils/countdown/countdown.wxss";

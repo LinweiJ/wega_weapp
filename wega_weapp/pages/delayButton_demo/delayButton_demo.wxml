@@ -1,0 +1,32 @@
+<!--pages/delayButton_demo/delayButton_demo.wxml-->
+
+<import src="../../utils/delayButton2/delayButton2.wxml" />
+
+<view class='delayButton_out' id='1'>
+
+ <include src="../../utils/delayButton/delayButton.wxml" /> 
+
+</view>
+
+<view class='delayButton_out' id='2'>
+
+ <include src="../../utils/delayButton/delayButton.wxml" /> 
+
+</view>
+
+<view class='delayButton_out_2' >
+<template  is="delaybutton2" data="{{...delayButtonData}}"  />  
+
+</view>
+
+<view class='delayButton_out_2'>
+
+<template  is="delaybutton2" data="{{...delayButtonData2}}"  />  
+
+</view>
+
+<view class='delayButton_out_2'>
+
+<template  is="delaybutton2" data="{{...delayButtonData3}}"  />  
+
+</view>

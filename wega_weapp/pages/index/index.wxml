@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+
+  <button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="toast">toast提示框</button>
+  <button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="dialog">dialog对话框</button>
+  <button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="delayButton">delayButton延时按钮</button>
+</view>

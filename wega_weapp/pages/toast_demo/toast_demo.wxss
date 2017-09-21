@@ -1,0 +1,4 @@
+/* pages/toast/toast.wxss */
+
+/* 导入toast样式 */
+@import "../../utils/toast/toast.wxss";

@@ -1,0 +1,8 @@
+<!--pages/dialog_demo/dialog_demo.wxml-->
+
+<!-- dialog 对话框 -->
+<include src="../../utils/dialog/dialog.wxml" />
+
+<button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="dialog1">默认dialog</button>
+<button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="dialog2">单键dialog</button>
+<button class="btn" plain style="color: #00a7e5; border-color: #00a7e5;" bindtap="dialog3">蓝色确定键dialog</button>

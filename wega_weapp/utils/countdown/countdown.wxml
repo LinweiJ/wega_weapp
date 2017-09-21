@@ -1,0 +1,8 @@
+<!--utils/countdown/countdown.wxml-->
+  <template name="countdown">  
+
+ <view  type="default"  class="countdown" >{{clock}}dd</view>
+  </template>  
+
+
+

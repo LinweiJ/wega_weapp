@@ -1,0 +1,10 @@
+<!--utils/delayButton/delayButton.wxml-->
+
+
+<template name="delaybutton2">
+
+  <button disabled="{{isClocking}}" type="default" bindtap="delaybutton2" data-name="{{name}}" class="delaybutton2" hover-class="hover_delaybutton">{{clock}}</button>
+
+
+</template>
+
