@@ -38,13 +38,10 @@ var toast = require('../../utils/toast/toast.js');
 ```js
 //全屏可点击 默认1500ms 类似android toast
 toast.showToastDefault(page, toastText)
-toast.showToastDefault(this, "请填入所需提示")
 //全屏不可点击 默认 2000ms
 toast.showToastWithMask(page, toastText)
-toast.showToastWithMask(this, "请填入所需提示")
 //可定制 
 toast.showToast(page, toastText, count, isShowMask)
-toast.showToast(page, "请填入所需提示",3000,true)
 //参数
 page:页面
 toastText:提示文字
@@ -54,7 +51,7 @@ isShowMask:是否显示蒙层
 
 6.参考
 
-更多细节参考pages/toast_demo/
+更多细节参考wega_weapp/pages/toast_demo/
 
 ## 二.dialog
 
@@ -109,7 +106,7 @@ var dialog = require('../../utils/dialog/dialog.js');
 
 6.参考
 
-更多细节参考pages/dialog_demo/
+更多细节参考wega_weapp/pages/dialog_demo/
 
 
 
